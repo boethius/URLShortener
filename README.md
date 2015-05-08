@@ -1,4 +1,7 @@
-# URL Shortener Readme
+# URL Shortener
+## What does it do?
+Creates a shorter url from any valid url by generating a random key. You can define the key length (minum 6), 6-8 characters is recommended. 
+
 ## Requirements
 To run this, you need a functioning webserver. This version only fully supports Apache with URL Rewriting enabled.
 
@@ -7,6 +10,7 @@ To run this, you need a functioning webserver. This version only fully supports 
 ... With Module Rewrite enabled
 * PHP 5.5+
 * File system that supports minum 1'500'625 files
+* The program expects to be run in the root web folder
 
 ### Web Browser
 * Javascript enabled
